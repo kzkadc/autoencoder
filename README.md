@@ -3,12 +3,15 @@ Trains autoencoder on MNIST.
 
 AE models are tied-weight (weights are shared between encoder and decoder).
 
-## Requirements
+## Requirements (Chainer)
 Chainer, OpenCV
 
 ```bash
 $ pip install chainer opencv-python
 ```
+
+## Requirements (PyTorch)
+PyTorch, OpenCV
 
 ##  How to run
 ```bash
